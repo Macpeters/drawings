@@ -22,6 +22,18 @@
   height: auto;
 }
 
+.copytoon-image {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.rat-image {
+  width: 80%;
+  height: auto;
+  padding: 20px;
+}
+
 article {
   text-align: center;
   width: 90%;

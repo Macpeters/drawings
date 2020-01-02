@@ -3,6 +3,8 @@ import './App.css';
 
 import AnimalAlphabets from './components/animalAlphabets.js';
 import Cattoons from './components/cattoon.js';
+import CopyToons from './components/copytoons.js';
+import ThatRatBastard from './components/thatRatBastard.js';
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
       </header>
 
       
-      <Cattoons/>
+      <ThatRatBastard/>
     </div>
   );
 }
