@@ -1,21 +1,6 @@
 .App {
   text-align: center;
 }
-.toon-buttons {
-  list-style: none;
-}
-
-.toon-buttons li {
-  padding: 10px;
-  margin: 5px;
-  display: inline-block;
-  border-radius: 25px;
-  border: medium rgb(221, 220, 220) solid;
-}
-
-.toon-buttons li:hover {
-  background-color: rgb(241, 241, 241);
-}
 
 .alphabet-image {
   width: 100%;
