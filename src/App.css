@@ -24,3 +24,41 @@ article {
   width: 90%;
   padding-left: 5%;
 }
+
+.logo-image {
+  height: 100px;
+  width: auto;
+  float: left;
+  display: inline-block;
+  padding-left: 10%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  padding: 10px;
+}
+
+.footer img {
+  height: 40px;
+  width: auto;
+  float: left;
+  display: inline-block;
+  padding-left: 10%;
+}
+
+.content {
+  padding-bottom: 100px;
+}
+
+.social-buttons {
+  padding-top: 10px;
+}
+
+.social-button {
+  padding-left: 10px;
+}
