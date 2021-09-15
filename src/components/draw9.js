@@ -1,15 +1,16 @@
 import React from 'react';
 
-
-import portraits from '../images/draw9/macpeters_01_portraits.png';
+import babies from '../images/draw9/macpeters_06_babies.png';
+import blackHair from '../images/draw9/macpeters_11_blackHair.png';
+import darkSkinnedLadies from '../images/draw9/macpeters_05_darkSkinnedLadies.png';
+import goats from '../images/draw9/macpeters_08_goats.png';
 import landscapes from '../images/draw9/macpeters_02_landscapes.png';
+import latinas from '../images/draw9/macpeters_10_latinas.png';
 import lights01 from '../images/draw9/macpeters_03_lights.png';
 import lights02 from '../images/draw9/macpeters_04_lights.png';
-import darkSkinnedLadies from '../images/draw9/macpeters_05_darkSkinnedLadies.png';
-import babies from '../images/draw9/macpeters_06_babies.png';
-import toddlers from '../images/draw9/macpeters_07_toddlers.png';
-import goats from '../images/draw9/macpeters_08_goats.png';
 import mice from '../images/draw9/macpeters_09_mice.png';
+import portraits from '../images/draw9/macpeters_01_portraits.png';
+import toddlers from '../images/draw9/macpeters_07_toddlers.png';
 
 export default class CopyToons extends React.Component {
   render() {
@@ -19,9 +20,19 @@ export default class CopyToons extends React.Component {
         <article>
           <p>
             This is an exercise in studying any subject where I think I need some improvement.
-            Drawing 9 of that subject gives me a chance to study a few different variations, 
-            and see some improvement in my skills. 
+            Drawing 9 of that subject gives me a chance to study a few different variations,
+            and see some improvement in my skills.
           </p>
+        </article>
+
+        <article>
+          <h4>Black Hair</h4>
+          <img className="copytoon-image" src={blackHair} alt="drawings of different black hair styles" />
+        </article>
+
+        <article>
+          <h4>Latin Women</h4>
+          <img className="copytoon-image" src={latinas} alt="drawings of latin women" />
         </article>
 
         <article>
